@@ -111,8 +111,6 @@ body {
     background-color: transparent;
     border: none;
 
-    /* cледую блок transition Устанавливает эффект перехода между двумя состояниями элемента, */
-    /*они могут быть определены с помощью псевдоэлемента :hover или :active, а также динамически через JavaScript*/
     -webkit-transition: top 1s ease-out 0.5s;
     -moz-transition: top 1s ease-out 0.5s;
     -o-transition: top 1s ease-out 0.5s;
@@ -174,7 +172,7 @@ body {
 }
 
 .welcome_screen {
-    background: url('../img/cheese_22.jpg') no-repeat center;  /* fixed*/
+    background: url('../img/syrny_set.jpg') no-repeat center;  /* fixed*/
     width: 100%;
     height: 800px;
     background-size: cover;
@@ -191,17 +189,14 @@ body {
   position: relative;
   vertical-align: middle;
   background: rgba(0,0,0,0.55);
-
 }
 
 .text_block p{
     margin-top: 235px;
     color: white;
-    /*color: #f9d9be;*/
     font-weight: bold;
-    /*color: white;*/
-    /*text-shadow:-1px -1px 0 #696969;*/
 }
+
 .text_block h1{
     /*color: #f9d9be;*/
     color: white;
@@ -212,11 +207,12 @@ body {
     margin-bottom: 20px;
     text-shadow: 1px 2px 1px #7d7669cc, 1px -1px 1px #7d7669cc, -2px 1px 1px #7d7669cc, -1px -1px 1px #7d7669cc;
     transition: all 1s;
-
 }
+
 .buttons_jump_to a{
     margin: 5px;
 }
+
 .buttons_jump_to a:hover {
     opacity: 0.6;
 }
@@ -226,6 +222,7 @@ body {
     border-color: #f9d9be;
     color: #333;
 }
+
 .second_section{
   padding-top: 55px;    /*для  точного перехода по якорю с учетом фиксированой панели навигации вверху  padding-top = -(margin-top)*/
   margin-top: -55px;    /*для  точного перехода по якорю с учетом фиксированой панели навигации вверху  padding-top = -(margin-top)*/
@@ -242,13 +239,13 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
-
 }
 
 .tt-overlay-bg {
     /*background: rgba(26, 30, 35, 0.85);*/
     padding: 40px 0;
 }
+
 .count_block{
     padding-bottom: 20px;
 }
@@ -257,53 +254,56 @@ body {
     font-size: 64px;
     margin-bottom: 25px;
 }
+
 .count-wrap h1 {
     font-size: 50px;
     line-height: 28px;
     margin-bottom: 20px;
 }
+
 .count-wrap p {
     font-size: 18px;
     font-weight: 700;
     margin: 0;
 }
-/* === Split Section === */
 
+/* === Split Section === */
 #split{
   margin-top: -55px;  /*для  точного перехода по якорю с учетом фиксированой панели навигации вверху*/
   padding-top: 55px;  /*для  точного перехода по якорю с учетом фиксированой панели навигации вверху  padding-top = -(margin-top)*/
-
 }
+
 .split_section{
     padding: 0;
     background-color: #FCFCFC;
 }
+
 .split_text_1{
     padding-top: 15px;
     padding-left: 50px;
     padding-right: 5px;
     text-align: justify;
 }
+
 .split_text_1 h2{
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 30px;
 }
-/*.features-list > li > i {
-    color: aqua;
-    padding-right: 10px;
-}*/
+
 .split_text_2{
     padding: 15px 50px 0 120px;
     text-align: justify;
 
 }
+
 .split_pic_2{
 
     margin-left: -15px;
     padding-left: 0;
     padding-right: 0;
 }
+
 .split_text_2 h2{
     font-size: 36px;
     font-weight: bold;
@@ -317,16 +317,19 @@ body {
     background-color:#272e43;
     color: white;
 }
+
 .adv_text h3{
     font-size: 26px;
     font-weight: 700;
     line-height: 35px;
 }
+
 .adv_button{
     background-color: white;
     margin-top: 17px;
     padding: 10px 16px;
 }
+
 a.disabled {  /*временно заглушить кнопку перехода в инет-магазин*/
     pointer-events: none; /* делаем ссылку некликабельной */
     cursor: default;  /* устанавливаем курсор в виде стрелки */
@@ -340,29 +343,35 @@ a.disabled {  /*временно заглушить кнопку переход�
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
 .what_clients_title h2{
     font-size: 36px;
     line-height: 44px;
     font-weight: 700;
 }
+
 .feedback_block{
     padding: 15px;
     background-color: #fcfcfc;
     margin-bottom: 20px;
     border-radius: 3px;
 }
+
 .thumb{
     display: block;
     width: 90px;
     float: left;
     margin-right: 20px;
 }
+
 .rating{
     color: #f9d133;
 }
+
 #on_click{
   display: none;
 }
+
 .hidden>div {
   display:none;
 }
@@ -383,9 +392,11 @@ a.disabled {  /*временно заглушить кнопку переход�
     background-attachment: fixed;
     background-position: 0 0;
 }
+
 .flex_slider img {
   margin-right: 20px;
 }
+
 .flex_slider p{
     color: #ffffff;
     /*opacity: 0.9;*/
@@ -393,17 +404,18 @@ a.disabled {  /*временно заглушить кнопку переход�
     line-height: 40px;
     font-style: italic;
 }
+
 .feed_info{
     display: inline-block;
     padding-top: 20px;
-
-
 }
+
 .feed_content{
     overflow: hidden;
     min-width: 140px;
     text-align: center;
 }
+
 .feed_content h4{
     text-transform: capitalize;
     font-weight: bold;
@@ -413,13 +425,16 @@ a.disabled {  /*временно заглушить кнопку переход�
     padding-top: 10px;
     color: #fff;
 }
+
 .feed_content span{
      color: white;
 }
+
 .flex_slider .flex-control-nav {
     left: 0;
     bottom: -60px;
 }
+
 .flex_slider .flex-control-paging li a {
     width: 14px;
     height: 14px;
@@ -432,6 +447,7 @@ a.disabled {  /*временно заглушить кнопку переход�
     box-shadow: none;
     border: 2px solid #12baf8;
 }
+
 .flex_slider .flex-control-paging li a:hover, .flex_slider .flex-control-paging li a.flex-active {
   background-color: #12baf8;
 }
@@ -439,7 +455,6 @@ a.disabled {  /*временно заглушить кнопку переход�
 
 
 /*== portfolio section === */
-
 /* experiment */
 .thumbs {
   width: 100%;
@@ -455,6 +470,7 @@ a.disabled {  /*временно заглушить кнопку переход�
   -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
 .thumbs:before {
   content: '';
   background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
@@ -471,6 +487,7 @@ a.disabled {  /*временно заглушить кнопку переход�
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .thumbs img {
   display: block;
   width: 100%; /* ширина картинки */
@@ -478,6 +495,7 @@ a.disabled {  /*временно заглушить кнопку переход�
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
+
 .thumbs .caption {
   width: 100%;
   padding: 20px;
@@ -488,6 +506,7 @@ a.disabled {  /*временно заглушить кнопку переход�
   z-index: 3;
   text-align: center;
 }
+
 .thumbs .caption span {
   display: block;
   opacity: 0;
@@ -500,37 +519,45 @@ a.disabled {  /*временно заглушить кнопку переход�
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
+
 .thumbs .caption .title {
   line-height: 1;
   font-weight: normal;
   font-size: 18px;
 }
+
 .thumbs .caption .info {
   line-height: 1.2;
   margin-top: 5px;
   font-size: 14px;
 }
+
 .thumbs:focus:before,
 .thumbs:focus span, .thumbs:hover:before,
 .thumbs:hover span {
   opacity: 1;
 }
+
 .thumbs:focus:before, .thumbs:hover:before {
   top: 50%;
 }
+
 .thumbs:focus span, .thumbs:hover span {
   top: 0;
 }
+
 .thumbs:focus .title, .thumbs:hover .title {
   -webkit-transition-delay: 0.15s;
           transition-delay: 0.15s;
 }
+
 .thumbs:focus .info, .thumbs:hover .info {
   -webkit-transition-delay: 0.25s;
           transition-delay: 0.25s;
 }
 
 /*end of experiment*/
+
 .portfolio_block{
     /*margin-top: 80px;*/
     margin-bottom: 80px;
@@ -538,15 +565,18 @@ a.disabled {  /*временно заглушить кнопку переход�
     margin-top: 25px;  /*для  точного перехода по якорю с учетом фиксированой панели навигации вверху  padding-top = -(margin-top)*/
 
 }
+
 .portfolio_row{
     margin-bottom: 30px;
 }
+
 .portfolio_title h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
     text-transform: capitalize;
 }
+
 /*.portfolio_box {
     display: block;
     overflow: hidden;
@@ -598,17 +628,20 @@ a.disabled {  /*временно заглушить кнопку переход�
 .our_team{
     padding-bottom: 80px;
 }
+
 .team_title{
     margin-top: 80px;
     margin-bottom: 80px;
     color: black;
 }
+
 .team_title h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
     text-transform: capitalize;
 }
+
 .person_box {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -623,6 +656,7 @@ a.disabled {  /*временно заглушить кнопку переход�
     text-align: center;
     background: #fff;
 }
+
 .person_box img {
   width: 100%;
   -moz-transition: all 0.3s;
@@ -630,6 +664,7 @@ a.disabled {  /*временно заглушить кнопку переход�
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .person_box .person_info {
   padding: 15px;
   width: 80%;
@@ -640,12 +675,14 @@ a.disabled {  /*временно заглушить кнопку переход�
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
 .person_box .person_info h4 {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 0;
   line-height: 20px;
 }
+
 .person_box .person_info span {
   display: inline-block;
   padding-bottom: 3px;
@@ -655,16 +692,20 @@ a.disabled {  /*временно заглушить кнопку переход�
   font-family: "Raleway", sans-serif;
     margin-bottom: 15px;
 }
+
 .person_box ul {
   margin-bottom: 0;
 }
+
 .person_box ul li a {
   font-size: 25px;
   color: #ddd;
 }
+
 .person_box ul li a:hover {
   color: #12baf8;
 }
+
 .person_box:hover img {
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
@@ -694,6 +735,7 @@ a.disabled {  /*временно заглушить кнопку переход�
     margin-top: 80px;
     color: white;
 }
+
 .subscription_title h2 {
     font-size: 36px;
     font-weight: 700;
@@ -701,15 +743,18 @@ a.disabled {  /*временно заглушить кнопку переход�
     text-transform: capitalize;
     text-shadow: 1px 2px 1px #42413ecc, 1px -1px 1px #2d2c29cc, -2px 1px 1px #7d7669cc, -1px -1px 1px #7d7669cc;  
 }
+
 .subscribe_comment{
   color: #286090;
   font-size: 18px;
   font-weight: bold;
 }
+
 .subscription_text{
     margin-top: 30px;
     margin-bottom: 80px;
 }
+
 .form-control{
 	/*== переопределение стандарта bootstrap.css === */
 	height:46px;
@@ -720,34 +765,41 @@ a.disabled {  /*временно заглушить кнопку переход�
 .footer{
     background: #393f4d none repeat scroll 0 0;
     color: #fff;
-
 }
+
 .footer_block{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 .copyright{
     margin-top: 40px;
 }
+
 .footer h4 {
     margin-bottom: 20px;
     color: #fff;
     font-weight: 500;
 }
+
 .footer p, .footer address {
     color: #fff;
     opacity: 0.7;
 }
+
 .footer a img {
     display: block;
     margin-bottom: 5px;
 }
+
 .footer ul {
     margin: 0;
 }
+
 .footer ul li {
     display: block;
 }
+
 .footer ul li a {
     color: #fff;
     opacity: 0.7;
@@ -755,10 +807,12 @@ a.disabled {  /*временно заглушить кнопку переход�
     position: relative;
     padding: 6px 0;
 }
+
 .footer ul li a:before {
     display: inline-block;
     padding-right: 8px;
 }
+
 .footer ul li a:after {
     content: "";
     border-bottom: 1px solid transparent;
@@ -772,18 +826,22 @@ a.disabled {  /*временно заглушить кнопку переход�
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .footer ul li a:hover {
     color: #12baf8;
     opacity: 1;
 }
+
 .footer ul li a:hover:after {
     width: 100%;
     border-bottom-color: #12baf8;
 }
+
 .footer_address{
   padding-left: 0;
   opacity: 0.7;
 }
+
 .footer_address >li{
   padding-top: 6px;
   padding-bottom: 6px;
@@ -811,6 +869,7 @@ a.disabled {  /*временно заглушить кнопку переход�
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .scrollToTop:hover {
   text-decoration: none;
   opacity: 1;
